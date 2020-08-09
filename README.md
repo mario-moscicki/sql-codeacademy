@@ -1,1 +1,1 @@
-# sql-codeacademy
+# sql-codecademy
