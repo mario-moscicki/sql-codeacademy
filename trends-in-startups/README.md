@@ -1,10 +1,16 @@
 Trends in startups project
 
-Contains: 
-Aggregate function performs a calculation on a set of values, and returns a single value. Except for COUNT(*), aggregate functions ignore null values. Aggregate functions are often used with the GROUP BY clause of the SELECT statement.
+In this Pro project I was practicing aggregate functions in SQL.  
 
-All aggregate functions are deterministic. In other words, aggregate functions return the same value each time that they are called, when called with a specific set of input values. See Deterministic and Nondeterministic Functions for more information about function determinism. The OVER clause may follow all aggregate functions, except the STRING_AGG, GROUPING or GROUPING_ID functions.
+First, I had to find out what the entire table contains.
 
-Use aggregate functions as expressions only in the following situations:
-  - The select list of a SELECT statement (either a subquery or an outer query).
-  - A HAVING clause.
+My tasks included finding info about: 
+  - total value of all companies in this table,   
+  - the highest amount raised by a startup?,    
+  - maximum amount of money raised, during ‘Seed’ stage.    
+
+What were the most competitive markets?    
+ - I have retured the name of each category with the total number of companies that belong to it and then filter the result to only include categories that have more than three       companies in them.
+ 
+ They asked me about difference in startups sizes among different locations:
+  - What is the average size of a startup in each location? / with average sizes above 500?
