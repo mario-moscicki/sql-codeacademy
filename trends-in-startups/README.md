@@ -17,4 +17,4 @@ What were the most competitive markets?
   
   
   
-  ![Screenshot](code 2.png)
+  ![Screenshot](code_2.png)
