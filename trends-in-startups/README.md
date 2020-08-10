@@ -14,3 +14,7 @@ What were the most competitive markets?
  
  They asked me about difference in startups sizes among different locations:
   - What is the average size of a startup in each location? / with average sizes above 500?
+  
+  
+  
+  ![Screenshot](code 2.png)
