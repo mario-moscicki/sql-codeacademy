@@ -1,4 +1,5 @@
-Hi in project New York Restaurants i'm practiced wrote the most common types of queries.  
+Hi,  
+in project New York Restaurants I practiced wrote the most common types of queries.  
 I'm learned how to query data from a database using SQL, also learned how to filter queries to make the information more specific and useful.  
 First im take all data from data base and watch what im there had  
 
