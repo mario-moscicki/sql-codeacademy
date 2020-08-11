@@ -3,7 +3,7 @@ in project New York Restaurants I practiced wrote the most common types of queri
 I'm learned how to query data from a database using SQL, also learned how to filter queries to make the information more specific and useful.  
 First im take all data from data base and watch what im there had  
 
-==code3.png  
+![code3/png](https://github.com/mario-moscicki/sql-codecademy/blob/master/new-york-restaurants/code3.png)
 
 They asked me / filtered data by:  
 - What are the distinct neighborhoods?  - What are the distinct cuisine types?  - I'm supposed who would like some Chinese takeout.  
@@ -12,8 +12,8 @@ They asked me / filtered data by:
 - I had to find the name of restaurant where he been, he only know part of word ‘meatball’.  
 - I Created a Top 10 Restaurants Ranks based on reviews.  
 
-== code4.png
+![code4/png](https://github.com/mario-moscicki/sql-codecademy/blob/master/new-york-restaurants/code4.png)
 
 - I used a CASE statement to change the rating system for each review score  
 
-==code5.png
+![code5/png](https://github.com/mario-moscicki/sql-codecademy/blob/master/new-york-restaurants/code5.png)
