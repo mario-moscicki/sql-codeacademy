@@ -22,8 +22,8 @@ Among other things, my job was:
 
 ![code4.jpg](https://github.com/mario-moscicki/sql-codecademy/blob/master/Multiple-Tables-with-REBU/code4.jpg)
 
-What is the average cost for a trip?  
-REBU want's email all irregular users for marketing campaign. I must find users who used less than 500 times.  
+- What is the average cost for a trip?  
+- REBU want's email all irregular users for marketing campaign. I must find users who used less than 500 times.  
 
 ![code5.jpg](https://github.com/mario-moscicki/sql-codecademy/blob/master/Multiple-Tables-with-REBU/code5.jpg)  
 
