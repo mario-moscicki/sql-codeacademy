@@ -6,7 +6,7 @@ My job was:
 - Create a table named friends with three columns:  
 ID that stores INTEGER,
 NAME that stores TEXT,
-BIRTHDAY that stores DATE.
+BIRTHDAY that stores DATE.  
 ========pic1
 
 - Add Jane Doe to table friends. Her birthday was May 30th, 1990.  
