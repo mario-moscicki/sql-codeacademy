@@ -57,7 +57,7 @@ Select only the title and publisher columns.
 8. Which article names have the word 'bitcoin' in it?
 Select all the columns.
 
- select * from news 
+ select title from news 
  where title like '%bitcoin%';
  
 
