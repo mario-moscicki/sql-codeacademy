@@ -7,3 +7,6 @@ Wrote queries to retrieve interesting data and answer a set of specific question
 - What is the average population of Poland during the time period covered by this dataset?
 - How many countries have the word “The” in their name?
 - What was the total population of each continent in 2010?
+
+![cod1.jpg](https://github.com/mario-moscicki/sql-codecademy/blob/master/World%20Populations%20SQL%20Practice%20II/cod1.jpg)  
+![cod2.jpg](https://github.com/mario-moscicki/sql-codecademy/blob/master/World%20Populations%20SQL%20Practice%20II/cod2.jpg)
