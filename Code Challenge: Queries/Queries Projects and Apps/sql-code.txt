@@ -68,3 +68,48 @@ order by birthday;
 SELECT email, campaign 
 FROM users
 where campaign is not null and test is not null;
+
+Davie's Burgers Subway Ad
+-- 1
+SELECT *
+FROM orders
+LIMIT 10;
+
+-- 2
+select distinct order_date from orders;
+
+-- 3
+select special_instructions 
+from orders 
+limit 20;
+
+-- 4
+select special_instructions 
+from orders
+where special_instructions is not null;
+
+-- 5
+select special_instructions 
+from orders
+where special_instructions is not null
+order by special_instructions asc;
+
+-- 6
+select special_instructions 
+from orders
+where special_instructions like '%sauce%';
+
+-- 7
+select special_instructions 
+from orders
+where special_instructions like '%door%';
+
+-- 8
+select special_instructions 
+from orders
+where special_instructions like '%box%';
+
+-- 9
+select id as '#', special_instructions as 'Notes' 
+from orders
+where special_instructions like '%box%';
