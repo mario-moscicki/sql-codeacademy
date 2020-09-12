@@ -15,4 +15,15 @@ Option 2: The marketing department of RPA is looking to segment the company user
 6: Find all the emails of all users who received ad copy 2 in their campaign.  
 7: Find the emails for all users who received both a campaign and a test. These users will have non-empty entries in the campaign and test columns.
 
-Option 3: Davie’s Burgers is a good old mom-and-pop restaurant looking to place a subway ad that will catch people’s attention. Help them dig into their orders table to find a funny tagline!
+Option 3: Davie’s Burgers is a good old mom-and-pop restaurant looking to place a subway ad that will catch people’s attention. Help them dig into their orders table to find a funny tagline!  
+2: Use DISTINCT to find out all the unique order_date values in this table.  
+3: Instead of selecting all the columns using *, write a query that selects only the special_instructions column. Limit the result to 20 rows.  
+4: There seem to be a lot of empty values in that column. That is because customers sometimes leave the notes section blank. Can you edit the query so that we are only returning the special instructions that are not empty?  
+5: Let’s go even further and sort the instructions in alphabetical order (A-Z).  
+6: Let’s search for special instructions that have the word ‘sauce’.  
+7: Let’s search for special instructions that have the word ‘door’.
+8: Let’s search for special instructions that have the word ‘box’.  
+9: Wow, some of these are marketing gold! But what are their order numbers? Instead of just returning the special instructions, also return their order ids.  
+For more readability:
+- Rename id as ‘#’  
+- Rename special_instructions as ‘Notes’  
