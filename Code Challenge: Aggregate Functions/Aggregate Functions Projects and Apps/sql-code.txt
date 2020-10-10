@@ -1,1 +1,37 @@
----
+SELECT *
+FROM transactions;
+
+2
+select sum(money_in)
+from transactions;
+
+3
+select sum(money_out)
+from transactions;
+
+4
+select count(money_in)
+from transactions;
+
+select count(money_out)
+from transactions
+where currency like 'BIT';
+
+5
+select max(money_in), max(money_out)
+from transactions;
+
+6
+select round(avg(money_in),2) as 'srednia wplywy'
+from transactions
+where currency like 'eth';
+
+7
+select date, avg(money_in), avg(money_out)
+from transactions
+group by date;
+
+8
+select date as 'data', round(avg(money_in),2) as 'wplaty', round(avg(money_out),2) as 'wyplaty'
+from transactions
+group by date;
