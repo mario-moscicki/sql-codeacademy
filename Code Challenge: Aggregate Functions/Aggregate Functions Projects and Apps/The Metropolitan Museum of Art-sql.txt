@@ -1,0 +1,70 @@
+SELECT *
+FROM met;
+
+2
+SELECT count(*)
+FROM met;
+
+3
+SELECT count (*)
+FROM met
+where category like '%celery%';
+
+SELECT DISTINCT category
+FROM met
+WHERE category LIKE '%celery%';
+
+4
+select date, title, medium
+from met
+order by 1
+limit 12;
+
+ver.2
+SELECT MIN(date)
+FROM met;
+
+SELECT date, title, medium
+FROM met
+WHERE date LIKE '%1600%';
+
+5
+SELECT COUNT(*), country
+FROM met
+where country is not null
+group by 2
+order by 1 desc
+LIMIT 10;
+
+6
+SELECT category, count(*)
+FROM met
+group by 1
+having count(category) >=100;
+
+7
+select medium, count(medium)
+from met
+where medium like '%silver%'
+or '%gold%'
+group by medium
+order by 2;
+
+select medium,
+case
+  when medium like '%gold%' then count(medium) as 'gold'
+  when medium like '%silver%' then count(medium) as 'silver'
+  else '0'
+  end
+from met;
+
+SELECT CASE
+   WHEN medium LIKE '%gold%'   THEN 'Gold'
+   WHEN medium LIKE '%silver%' THEN 'Silver'
+   ELSE NULL
+  END AS 'Bling',
+  COUNT(*)
+FROM met
+WHERE Bling IS NOT NULL
+GROUP BY 1
+ORDER BY 2 DESC;
